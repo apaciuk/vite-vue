@@ -17,7 +17,11 @@ export default {
   }
 </script>
 
-<style scoped>
+<style lang="scss">
+p > button {
+  background-color: red;
+  height: 50px;
+}
 h1 {
   color: #4fc08d;
 }
