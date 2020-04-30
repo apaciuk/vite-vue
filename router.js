@@ -1,4 +1,21 @@
-import Vue from 'vue';
-import VueRouter from 'vue-router';
+/* eslint-disable no-unused-vars */
+import { createRouter, createWebHistory } from 'vue-router';
+import Home from "./views/Home.vue";
+import Login from "./views/Contact.vue";
 
-Vue.use(VueRouter);
+const routerHistory = createWebHistory();
+const router = createRouter({
+  history: routerHistory,
+  routes: [
+     {
+    path: "/",
+    component: Home
+  },
+  {
+    path: "/Contact",
+    component: Contact
+  }
+  {
+  ]
+});
+export default router

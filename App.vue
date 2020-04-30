@@ -1,4 +1,9 @@
 <template>
+<div id="nav">
+<router-link to="/Home"></router-link>
+<router-link to="/Contact"></router-link>
+</nav>
+<router-view></router-view>
   <h1>Hello Vite + Vue 3!</h1>
   <p>Edit ./App.vue to test hot module replacement (HMR).</p>
   <p>
