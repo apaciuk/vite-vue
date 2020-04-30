@@ -8,13 +8,13 @@
   <Index />
 </template>
 <script>
-//import Index from '@/components/Index.vue';
+import Index from './components/Index.vue';
 export default {
-  //components: {
-   // Index
-  //},
+  components: {
+   Index
+  },
   data: () => ({ count: 0 }),
-}
+  }
 </script>
 
 <style scoped>
